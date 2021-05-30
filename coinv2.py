@@ -59,7 +59,7 @@ while endos==False:
             passwords.append(data[d]['password'])
             devices.append(data[d]['device'])
     
-    for email,password,device in zip(listos,password,device):
+    for email,password,device in zip(listos,passwords,devices):
         client=amino.Client(deviceId=device)
         threads=[] 
         threads2=[]
