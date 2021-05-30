@@ -11,13 +11,13 @@ cp * ../RegisterAmino -f
 cd ..
 ```
 
-### usage v1 (email.txt)
+### usage v1 for (email.txt)
 
 ```
 cd RegisterAmino
 python coinv1.py
 ```
-### usage v2 (email.json)
+### usage v2 for (email.json)
 
 ```
 cd RegisterAmino
